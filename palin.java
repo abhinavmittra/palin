@@ -14,9 +14,9 @@ class palin {
     public static void main(String[] args) 
     { 
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine(); 
+        String outStr = sc.nextLine(); 
   
-        if (isPalindrome(str)) 
+        if (isPalindrome(outStr)) 
             System.out.print("Yes"); 
         else
             System.out.print("No"); 
