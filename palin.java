@@ -1,6 +1,6 @@
 import java.util.*;
 class palin { 
-    public static boolean isPalindrome(String str) 
+    public static boolean isPalindromeChecker(String str) 
     { 
         int n = str.length();
         for(int i=0;i<n/2;i++) { 
@@ -12,11 +12,11 @@ class palin {
     public static void main(String[] args) 
     { 
         Scanner sc = new Scanner(System.in);
-        String outStr = sc.nextLine(); 
+        String outputString = sc.nextLine(); 
   
-        if (isPalindrome(outStr)) 
-            System.out.print("Yes"); 
+        if (isPalindromeChecker(outputString)) 
+            System.out.print("YES"); 
         else
-            System.out.print("No"); 
+            System.out.print("NO"); 
     } 
 } 
